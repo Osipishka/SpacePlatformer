@@ -7,7 +7,7 @@ public class UIAnimationController : MonoBehaviour
     [Header("Animation Parameters")]
     [SerializeField] private string openTrigger = "Open";
     [SerializeField] private string closeTrigger = "Close";
-    [SerializeField] private float closeAnimationDuration = 0.5f;
+    [SerializeField] private float closeAnimationDuration = 0.6f;
 
     protected Animator animator;
     private Canvas canvas;
